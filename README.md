@@ -7,7 +7,7 @@ This repository serves the public BeautiArt Desktop website through GitHub Pages
 - Privacy: <https://ite-on.github.io/BeautiArt-Desktop/privacy-policy.html>
 - Support: <https://ite-on.github.io/BeautiArt-Desktop/support.html>
 
-BeautiArt Desktop is a Windows application for arranging Explorer desktop icons into letters, words, geometric designs, and decorative shapes. The site is intentionally static and has no build step, analytics, account system, or application download hosted outside Microsoft Store.
+BeautiArt Desktop is a free Windows application for arranging Explorer desktop icons into letters, words, and geometric designs. A one-time durable Microsoft Store Premium add-on unlocks decorative shapes, advanced strokes, SVG, randomization, and reusable JSON layouts. The site is intentionally static and has no build step, analytics, account system, payment form, or application download hosted outside Microsoft Store.
 
 ## Site Files
 
@@ -32,15 +32,15 @@ After Partner Center assigns the public Store product ID, replace `STORE_PRODUCT
 
 ## Publish With GitHub Pages
 
-1. Update the Store link when available.
+1. Update the Store link when available and confirm the Free/Premium listing matches the implemented capability table.
 2. Open `index.html`, `download.html`, `privacy-policy.html`, and `support.html` locally.
 3. Confirm links, screenshots, responsive layout, support email, and policy dates.
 4. Commit and push to the branch configured under **Settings > Pages**.
 5. Wait for the Pages deployment, then verify all four public URLs above.
 
 ```powershell
-git add README.md index.html download.html store-pages.css sample-s.png sample-he.png
-git commit -m "Add Store download page and product gallery"
+git add README.md index.html download.html privacy-policy.html support.html store-pages.css sample-s.png sample-he.png
+git commit -m "Update BeautiArt Desktop Store pages"
 git push
 ```
 
@@ -48,6 +48,7 @@ git push
 
 - Distribution must point to Microsoft Store only.
 - Keep privacy and support claims aligned with the released application.
+- Keep the Free/Premium feature split and durable add-on language aligned with Partner Center.
 - Use real application screenshots and avoid showing private user data.
 - Update this README whenever public pages, URLs, or deployment requirements change.
 
